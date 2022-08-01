@@ -15,7 +15,7 @@ public class Normal {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(81) + 20;
         }
-        System.out.println("New massive: " + Arrays.toString(array));
+        System.out.println("Новый массив: " + Arrays.toString(array));
         System.out.println("Vvedite chislo iz massiva");
 
         int index = -1;
