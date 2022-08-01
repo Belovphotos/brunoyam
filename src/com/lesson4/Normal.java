@@ -15,8 +15,8 @@ public class Normal {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(81) + 20;
         }
-        System.out.println("РќРѕРІС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(array));
-        System.out.println("Vvedite chislo iz massiva");
+        System.out.println("Новый массив: " + Arrays.toString(array));
+        System.out.println("Введите число из массива");
 
         int index = -1;
 
