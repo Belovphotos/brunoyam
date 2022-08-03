@@ -31,10 +31,10 @@ class Person{
     }
 
     public void talk(){
-        System.out.println("Такой-то " + fullName + " говорит");
+        System.out.println("Someone " + fullName + " talk");
     }
 
     public void move(){
-        System.out.println("Такой-то " + fullName + " ходит");
+        System.out.println("Someone " + fullName + " walk");
     }
 }

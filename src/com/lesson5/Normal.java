@@ -73,26 +73,26 @@ class Car {
 
     @Override
     public String toString() {
-        return "Автомобиль: " + "\n" +
-                "Модель: " + model + "\n" +
-                "Класс автомобиля: " + carClass + "\n" +
-                "вес(тонн): " + weight + "\n" +
-                "Водитель: " + driver + "\n" +
-                "Двигатель: " + engine  + "\n" +
+        return "РђРІС‚РѕРјРѕР±РёР»СЊ: " + "\n" +
+                "РњРѕРґРµР»СЊ: " + model + "\n" +
+                "РљР»Р°СЃСЃ Р°РІС‚РѕРјРѕР±РёР»СЏ: " + carClass + "\n" +
+                "РІРµСЃ(С‚РѕРЅРЅ): " + weight + "\n" +
+                "Р’РѕРґРёС‚РµР»СЊ: " + driver + "\n" +
+                "Р”РІРёРіР°С‚РµР»СЊ: " + engine  + "\n" +
                 ' ';
     }
 
     public void start() {
-        System.out.println("Поехали!");
+        System.out.println("РџРѕРµС…Р°Р»Рё!");
     }
     public void stop() {
-        System.out.println("Останавливаемся!");
+        System.out.println("РћСЃС‚Р°РЅР°РІР»РёРІР°РµРјСЃСЏ!");
     }
     public void turnRight() {
-        System.out.println("Поворачиваем направо!");
+        System.out.println("РџРѕРІРѕСЂР°С‡РёРІР°РµРј РЅР°РїСЂР°РІРѕ!");
     }
     public void turnLeft() {
-        System.out.println("Пворачиваем налево!");
+        System.out.println("РџРІРѕСЂР°С‡РёРІР°РµРј РЅР°Р»РµРІРѕ!");
     }
 }
 
@@ -120,8 +120,8 @@ class Driver {
 
     @Override
     public String toString() {
-        return "ФИО: " + name +
-                ", стаж вождения: " + experience +
+        return "Р¤РРћ: " + name +
+                ", СЃС‚Р°Р¶ РІРѕР¶РґРµРЅРёСЏ: " + experience +
                 ' ' ;
     }
 }
@@ -148,8 +148,8 @@ private String producer;
 
     @Override
     public String toString() {
-        return "Мощность(лс): " + power + "\n" +
-                "производитель: " + producer +
+        return "РњРѕС‰РЅРѕСЃС‚СЊ(Р»СЃ): " + power + "\n" +
+                "РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ: " + producer +
                 ' ' ;
     }
 }
