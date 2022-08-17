@@ -33,7 +33,7 @@ public class Main {
         registrationService.registration("Belovphotos95", "qwerty123", "qwerty124");
 
         try {
-            System.out.println(registrationService.checkLoginAndPassword("Belovphotos95", "qwerty123", "qwerty124");
+            registrationService.checkLoginAndPassword("Belovphotos95", "qwerty123", "qwerty124");
         } catch (WrongLoginException e) {
             throw new RuntimeException(e);
         } catch (WrongPasswordException e) {
